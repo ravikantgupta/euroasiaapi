@@ -1,6 +1,6 @@
 const dotenv = require('dotenv').config();
 
 module.exports = {
-  'secret':process.env.DATABASE_SECRET,
-  'database': process.env.DATABASE_URL
+  'secret':'nodeauthsecret',
+  'database': 'mongodb+srv://euroasia:euroasia@cluster0.tejs8.mongodb.net/euro?retryWrites=true&w=majority'
 };
